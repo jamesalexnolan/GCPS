@@ -1,0 +1,708 @@
+body {
+    font-family: 'Futura', sans-serif;
+    font-size: smaller;
+}
+
+.web-container {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+h3 {
+    margin: 0;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+h4 {
+    margin: 0;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+p {
+    margin: 0;
+    font-weight: lighter;
+}
+
+hr {
+    background-color: #4E4E80;
+}
+
+/*About us banner*/
+.gcps-hero-banner-about-us {
+    background-image: url(http://placekitten.com/900/700);
+    color: white;
+    width: 100%;
+    height: 250px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Our Work banner*/
+.gcps-hero-banner-our-work {
+    background-image: url(http://placekitten.com/900/700);
+    color: white;
+    width: 100%;
+    height: 250px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Employee Banner*/
+.employee-profile-left,
+.employee-profile-right {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.employee-profile-left {
+    background: linear-gradient(to right, #f5f5f5, rgb(93 93 93 / 90%))
+}
+
+.employee-profile-right {
+    background: linear-gradient(to left, #f5f5f5, rgb(93 93 93 / 90%))
+}
+
+.employee-profile-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    width: 100%;
+    padding: 20 20 0 20;
+    box-sizing: border-box;
+}
+
+.employee-profile-left-img,
+.employee-profile-right-img {
+    flex: 1;
+}
+
+.employee-profile-left-text,
+.employee-profile-right-text {
+    flex: 0.7;
+    padding: 0 20px;
+}
+
+.employee-profile-left-img img,
+.employee-profile-right-img img {
+    max-width: 80%;
+    height: auto;
+}
+
+.employee-profile-right-img {
+    justify-content: end;
+    display: flex;
+}
+
+.employee-profile-left-img {
+    justify-content: start;
+    display: flex;
+}
+
+.employee-profile-right-text h3,
+.employee-profile-left-text h3 {
+    margin-bottom: 10px;
+}
+
+.gcps-learn-more-cta {
+    margin-top: 20px;
+}
+
+.employee-profile-right-text {
+    text-align: right;
+}
+
+.employee-profile-right-text>.gcps-learn-more-cta {
+    justify-content: end;
+}
+
+.employee-profile-left-text>.gcps-learn-more-cta {
+    justify-content: start;
+}
+
+
+/*Hero Banner Styling*/
+.gcps-hero-banner-homepage {
+    background-image: url(http://placekitten.com/900/700);
+    color: white;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gcps-hero-banner-services {
+    background-image: url(http://placekitten.com/900/700);
+    color: white;
+    width: 100%;
+    height: 250px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gcps-email-contact-banner {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.gcps-contact-banner-header {
+    display: grid;
+    justify-content: center;
+    padding: 10px;
+    justify-items: center;
+}
+
+.gcps-contact-banner-header>h4 {
+    padding: 2px;
+}
+
+.gcps-contact-banner-header>p {
+    padding: 2px;
+}
+
+.gcps-hero-banner-title {
+    padding: 30px;
+}
+
+.gcps-hero-banner-title>h3 {
+    margin-bottom: 10px;
+}
+
+.gcps-learn-more-cta {
+    display: grid;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.gcps-pill-cta {
+    background-color: #E59500;
+    padding: 10 15 10 15;
+    border-radius: 5px;
+    color: white;
+}
+
+.gcps-pill-cta>a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.gcps-pill-cta:hover {
+    cursor: pointer;
+    background-color: #4E4E80;
+}
+
+[type="submit"] {
+    color: white;
+    background-color: #4E4E80;
+    border-radius: 5px;
+    border-width: 0;
+    padding: 5px;
+}
+
+[type="submit"]:hover {
+    background-color: #E59500;
+    cursor: pointer;
+}
+
+/*Call out styling*/
+.gcps-call-outs {
+    display: flex;
+    justify-content: center;
+    margin: 15 0 15 0;
+}
+
+.gcps-call-out {
+    display: grid;
+    padding: 7px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.gcps-call-out>h3 {
+    color: #4E4E80;
+    justify-content: center;
+    display: flex;
+}
+
+.gcps-call-out>p {
+    justify-content: center;
+    display: flex;
+}
+
+.gcps-hero-text-banner {
+    padding: 10px;
+}
+
+/*logo carousel*/
+.gcps-carousel {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: 17 0 17 0;
+}
+
+.carousel-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    margin: 0 40 0 40;
+}
+
+.carousel-item {
+    flex: 0 0 auto;
+    margin-right: 10px;
+}
+
+.brand-logo {
+    height: 65px;
+}
+
+.prev-button,
+.next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 30 10 30 10;
+    cursor: pointer;
+    background: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.7));
+    color: #fff;
+    border: none;
+    font-size: 18px;
+}
+
+.prev-button {
+    background: linear-gradient(to left, transparent, rgba(0, 0, 0, 0.7));
+}
+
+.prev-button::before,
+.next-button::before {
+    content: '\2039';
+    font-family: 'Arial', sans-serif;
+}
+
+.next-button::before {
+    content: '\203A';
+}
+
+.prev-button {
+    left: 0;
+}
+
+.next-button {
+    right: 0;
+}
+
+/*call out text*/
+.gcps-call-out-text {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.gcps-call-out-text-header {
+    flex: 1 100%;
+}
+
+.gcps-col-1 {
+    flex: 1 70%;
+}
+
+.gcps-col-2 {
+    flex: 1 30%;
+}
+
+.gcps-sub-header-image-wrapper {
+    max-width: 100%;
+    height: auto;
+}
+
+.gcps-call-out-text-header>h3 {
+    padding: 10 5 10 0;
+}
+
+.gcps-sub-header-text>p {
+    padding: 5 10 20 0;
+}
+
+.gcps-sub-header-text>.gcps-learn-more-cta {
+    justify-content: start;
+    padding-bottom: 10px;
+}
+
+/*challenges banner*/
+.gcps-hero-banner-challanges {
+    background-image: url(http://placekitten.com/900/700);
+    color: white;
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image-1 {
+    background-image: url(http://placekitten.com/900/700);
+    color: white;
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image-2 {
+    background-image: url(http://placekitten.com/900/701);
+    color: white;
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image-3 {
+    background-image: url(http://placekitten.com/900/702);
+    color: white;
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image-4 {
+    background-image: url(http://placekitten.com/900/703);
+    color: white;
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gcps-hero-banner-challanges-content {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.gcps-hero-banner-challanges-content>.gcps-col-1 {
+    flex: 1 60%;
+}
+
+.gcps-hero-banner-challanges-content>.gcps-col-2 {
+    flex: 1 40%;
+    background: linear-gradient(to right, transparent, rgba(0, 0.4, 0.7, 0.9));
+    padding-top: 20px;
+}
+
+.gcps-challanges-content>p {
+    padding: 10 5 10 0;
+}
+
+.gcps-hero-banner-challanges-content>.gcps-col-2>.gcps-learn-more-cta {
+    justify-content: start;
+    margin: 10 0 20 0;
+}
+
+/*services call outs*/
+.gcps-call-out-cards {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.gcps-call-out-cards-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gcps-col-1-50 {
+    width: 48%;
+}
+
+.gcps-call-out-card {
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gcps-call-out-card:hover {
+    cursor: pointer;
+}
+
+.gcps-call-out-card:nth-child(1) {
+    background-image: url(http://placekitten.com/900/700);
+}
+
+.gcps-call-out-card:nth-child(2) {
+    background-image: url(http://placekitten.com/901/701);
+}
+
+.gcps-call-out-card:nth-child(3) {
+    background-image: url(http://placekitten.com/902/702);
+}
+
+.gcps-call-out-card:nth-child(4) {
+    background-image: url(http://placekitten.com/903/703);
+}
+
+.gcps-call-out-card:nth-child(5) {
+    background-image: url(http://placekitten.com/904/704);
+}
+
+.gcps-call-out-card:nth-child(6) {
+    background-image: url(http://placekitten.com/905/705);
+}
+
+.call-out-card-content {
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+}
+
+.call-out-card-content h3 {
+    margin-bottom: 10px;
+}
+
+.call-out-card-content p {
+    margin-bottom: 10px;
+}
+
+.call-out-card-content a {
+    color: #007bff;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+}
+
+.call-out-card-content a:hover {
+    text-decoration: underline;
+}
+
+/*need help banner*/
+.gcps-need-help-banner {
+    background-color: #f5f5f5;
+}
+
+.gcps-need-help-banner-header {
+    text-align: center;
+    padding: 15px;
+    background-color: #4E4E80;
+    color: white;
+}
+
+.gcps-need-help-banner-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.gcps-need-help-banner-cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.gcps-need-help-card {
+    width: calc(25% - 20px);
+    background-color: #fff;
+    padding-top: 100px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.gcps-need-help-card:hover {
+    cursor: pointer;
+}
+
+.gcps-need-help-card:nth-child(1) {
+    background-image: url(http://placekitten.com/200/300);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gcps-need-help-card:nth-child(2) {
+    background-image: url(http://placekitten.com/200/301);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gcps-need-help-card:nth-child(3) {
+    background-image: url(http://placekitten.com/200/302);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gcps-need-help-card:nth-child(4) {
+    background-image: url(http://placekitten.com/200/303);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gcps-need-help-card a {
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+}
+
+.gcps-need-help-card a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.gcps-help-card-content {
+    /*background: linear-gradient(to bottom, transparent, rgba(0, 0.4, 0.7, 0.9));*/
+    background: rgba(0, 0, 0, 0.3);
+    padding-top: 10px;
+}
+
+.gcps-help-card-content>h4 {
+    padding: 0 20 0 20;
+}
+
+.gcps-help-card-content>p {
+    padding: 20px;
+}
+
+/*Menu Styling*/
+/*Desktop menu*/
+.desktop-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.menu-items {
+    display: inline-flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gcps-logo-menu {
+    padding-right: 20px;
+}
+
+.gcps-logo-menu>img {
+    width: 100px;
+    height: auto;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-item {
+    width: 90px;
+    text-decoration: none;
+    color: black;
+    padding: 3px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.nav-item:hover {
+    cursor: pointer;
+    color: #E59500;
+}
+
+/*Desktop Menu -- END*/
+/*Mobile menu*/
+/*Mobile menu -- END*/
+/*Menu Styling -- END*/
+
+/*Footer Styling*/
+.page-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 80 0 80;
+    height: 50px;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: xx-small;
+}
+
+.footer-socials {
+    display: flex;
+    width: 80px;
+    justify-content: end;
+}
+
+.nav-item-footer {
+    width: auto;
+    text-decoration: none;
+    color: black;
+    padding: 3px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.social-icon {
+    color: white;
+}
+
+.social-icon>i {
+    font-size: 14px;
+    color: #4E4E80;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.social-icon>i:hover {
+    cursor: pointer;
+    color: #E59500;
+}
+
+.nav-link {
+    color: #4E4E80;
+}
+
+.nav-link:hover {
+    color: #E59500;
+}
+
+/*Footer Styling - End*/
+
+/* Desktop */
+@media screen and (min-width: 1062px) {}
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 1154px) {
+    .web-container {
+        margin-right: 5%;
+        margin-left: 5%;
+        width: auto;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+    .web-container {
+        margin-right: 5%;
+        margin-left: 5%;
+        width: auto;
+    }
+}
